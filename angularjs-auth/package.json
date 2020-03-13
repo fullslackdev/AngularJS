@@ -10,7 +10,8 @@
     "angular": "^1.7.9",
     "angular-auth0": "^3.0.6",
     "auth0-js": "^9.12.2",
-    "bootstrap": "^3.4.1"
+    "bootstrap": "^3.4.1",
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "http-server": "^0.12.1"

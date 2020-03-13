@@ -31,6 +31,14 @@
                 controllerAs: 'vm'
             });
 
+        angularAuth0Provider.init({
+            clientID: 'KxSQPbYe2zVmRrAsp5k61uD0W7WcM5H3',
+            domain: 'fullslack.eu.auth0.com',
+            responseType: 'token id_token',
+            redirectUri: 'http://localhost:3000/callback',
+            scope: 'openid'
+        });
+
         $urlRouterProvider.otherwise('/');
 
         $locationProvider.hashPrefix('');
