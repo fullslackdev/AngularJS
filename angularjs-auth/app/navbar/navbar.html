@@ -9,11 +9,11 @@
                 <li>
                     <a href="">Home</a>
                 </li>
-                <li>
+                <li ng-if="!vm.auth.isAuthenticated()">
                     <a ng-click="vm.auth.login()">Log In</a>
                 </li>
-                <li>
-                    <a href="">Log Out</a>
+                <li ng-if="vm.auth.isAuthenticated()">
+                    <a ng-click="vm.auth.logout()">Log Out</a>
                 </li>
             </ul>
         </div>
