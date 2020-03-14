@@ -42,7 +42,8 @@
             domain: 'fullslack.eu.auth0.com',
             responseType: 'token id_token',
             redirectUri: 'http://localhost:3000/callback',
-            scope: 'openid profile'
+            scope: 'openid profile',
+            audience: 'https://fullslack.dev/api'
         });
 
         $urlRouterProvider.otherwise('/');
