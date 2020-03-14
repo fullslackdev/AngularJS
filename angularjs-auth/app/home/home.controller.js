@@ -3,9 +3,11 @@
         .module('app')
         .controller('HomeController', homeController);
 
-    homeController.$inject = ['$http'];
-    function homeController($http) {
+    homeController.$inject = ['$http', 'authService'];
+    function homeController($http, authService) {
         var vm = this;
+
+        vm.auth = authService;
 
         vm.message = '';
         vm.getMessage = function() {

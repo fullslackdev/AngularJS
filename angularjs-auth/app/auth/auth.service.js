@@ -12,8 +12,10 @@
         function handleAuthentication() {
             angularAuth0.parseHash(function(err, authResult) {
                 if (authResult && authResult.accessToken && authResult.idToken) {
-                    // console.log(authResult);
                     setSession(authResult);
+                    $timeout(function() {
+                        $state.go('home');
+                    });
                 }
             });
         }
