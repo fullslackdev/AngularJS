@@ -29,6 +29,12 @@
                 controller: 'CallbackController',
                 templateUrl: 'app/callback/callback.html',
                 controllerAs: 'vm'
+            })
+            .state('profile', {
+                url: '/profile',
+                controller: 'ProfileController',
+                templateUrl: 'app/profile/profile.html',
+                controllerAs: 'vm'
             });
 
         angularAuth0Provider.init({
@@ -36,7 +42,7 @@
             domain: 'fullslack.eu.auth0.com',
             responseType: 'token id_token',
             redirectUri: 'http://localhost:3000/callback',
-            scope: 'openid'
+            scope: 'openid profile'
         });
 
         $urlRouterProvider.otherwise('/');

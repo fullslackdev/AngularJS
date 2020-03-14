@@ -9,6 +9,9 @@
                 <li>
                     <a href="">Home</a>
                 </li>
+                <li ng-if="vm.auth.isAuthenticated()">
+                    <a ui-sref="profile">Profile</a>
+                </li>
                 <li ng-if="!vm.auth.isAuthenticated()">
                     <a ng-click="vm.auth.login()">Log In</a>
                 </li>
