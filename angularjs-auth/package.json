@@ -9,6 +9,7 @@
     "@uirouter/angularjs": "^1.0.25",
     "angular": "^1.7.9",
     "angular-auth0": "^3.0.6",
+    "angular-jwt": "^0.1.11",
     "auth0-js": "^9.12.2",
     "bootstrap": "^3.4.1",
     "express": "^4.17.1"

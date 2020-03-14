@@ -1,21 +1,25 @@
 (function() {
 
     angular
-        .module('app', ['auth0.auth0', 'ui.router'])
+        .module('app', ['auth0.auth0', 'ui.router', 'angular-jwt'])
         .config(config);
 
     config.$inject = [
         '$stateProvider',
         '$locationProvider',
         '$urlRouterProvider',
-        'angularAuth0Provider'
+        '$httpProvider',
+        'angularAuth0Provider',
+        'jwtOptionsProvider'
     ];
 
     function config(
         $stateProvider,
         $locationProvider,
         $urlRouterProvider,
-        angularAuth0Provider
+        $httpProvider,
+        angularAuth0Provider,
+        jwtOptionsProvider
     ) {
         $stateProvider
             .state('home', {
@@ -45,6 +49,15 @@
             scope: 'openid profile',
             audience: 'https://fullslack.dev/api'
         });
+
+        jwtOptionsProvider.config({
+            tokenGetter: function() {
+                return localStorage.getItem('access_token');
+            },
+            whiteListedDomains: ['localhost']
+        });
+
+        $httpProvider.interceptors.push('jwtInterceptor');
 
         $urlRouterProvider.otherwise('/');
 
