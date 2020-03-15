@@ -7,12 +7,12 @@ h1 {
     margin-top: 0;
 }
 
-/* View: Phone list */
-.phones {
+/* View: Client list */
+.clients {
     list-style: none;
 }
 
-.phones li {
+.clients li {
     clear: both;
     height: 115px;
     padding-top: 15px;
@@ -26,8 +26,8 @@ h1 {
     width: 100px;
 }
 
-/* View: Phone detail */
-.phone {
+/* View: Client detail */
+.client {
     background-color: white;
     display: none;
     float: left;
@@ -38,11 +38,11 @@ h1 {
     width: 400px;
 }
 
-.phone:first-child {
+.client:first-child {
     display: block;
 }
 
-.phone-images {
+.client-images {
     background-color: white;
     float: left;
     height: 450px;
@@ -51,18 +51,18 @@ h1 {
     width: 450px;
 }
 
-.phone-thumbs {
+.client-thumbs {
     list-style: none;
     margin: 0;
 }
 
-.phone-thumbs img {
+.client-thumbs img {
     height: 100px;
     padding: 1em;
     width: 100px;
 }
 
-.phone-thumbs li {
+.client-thumbs li {
     background-color: white;
     border: 1px solid black;
     cursor: pointer;

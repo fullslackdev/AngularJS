@@ -1,10 +1,10 @@
 'use strict';
 
-// Define the `phonecatApp` module
-angular.module('phonecatApp', [
+// Define the `nextlegalApp` module
+angular.module('nextlegalApp', [
     'ngAnimate',
     'ngRoute',
     'core',
-    'phoneDetail',
-    'phoneList'
+    'clientDetailModule',
+    'clientListModule'
 ]);

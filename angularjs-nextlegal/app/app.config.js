@@ -1,16 +1,16 @@
 'use strict';
 
 angular.
-    module('phonecatApp').
+    module('nextlegalApp').
     config(['$routeProvider',
         function config($routeProvider) {
             $routeProvider.
-                when('/phones', {
-                    template: '<phone-list></phone-list>'
+                when('/clients', {
+                    template: '<client-list-component></client-list-component>' // This is translated to the component name
                 }).
-                when('/phones/:phoneId', {
-                    template: '<phone-detail></phone-detail>'
+                when('/clients/:phoneId', {
+                    template: '<client-detail-component></client-detail-component>'
                 }).
-                otherwise('/phones');
+                otherwise('/clients');
         }
     ]);

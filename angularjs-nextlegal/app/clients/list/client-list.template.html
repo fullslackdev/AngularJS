@@ -10,7 +10,7 @@
 
             <p>
                 Sort by:
-                <select ng-model="bla.orderProp">
+                <select ng-model="vm.orderProp">
                     <option value="name">Alphabetical</option>
                     <option value="age">Newest</option>
                 </select>
@@ -19,14 +19,14 @@
         <div class="col-md-10">
             <!--Body content-->
 
-            <ul class="phones">
-                <li ng-repeat="phone in bla.phones | filter:$ctrl.query | orderBy:bla.orderProp"
-                    class="thumbnail phone-list-item">
-                    <a href="#!/phones/{{phone.id}}" class="thumb">
-                        <img ng-src="{{phone.imageUrl}}" alt="{{phone.name}}" />
+            <ul class="clients">
+                <li ng-repeat="client in vm.clients | filter:$ctrl.query | orderBy:vm.orderProp"
+                    class="thumbnail client-list-item">
+                    <a href="#!/clients/{{client.id}}" class="thumb">
+                        <img ng-src="{{client.imageUrl}}" alt="{{client.name}}" />
                     </a>
-                    <a href="#!/phones/{{phone.id}}">{{phone.name}}</a>
-                    <p>{{phone.snippet}}</p>
+                    <a href="#!/clients/{{client.id}}">{{client.name}}</a>
+                    <p>{{client.snippet}}</p>
                 </li>
             </ul>
 
