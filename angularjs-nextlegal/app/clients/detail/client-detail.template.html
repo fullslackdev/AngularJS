@@ -50,7 +50,8 @@
         <span>Projecten</span>
         <dl>
             <dt>Gegevens</dt>
-            <dd ng-repeat="dim in $ctrl.client.projects">{{dim}}</dd>
+            <dd ng-repeat="project in $ctrl.client.projects">
+                <a href="#!/projects/{{project.id}}">{{project.name}}</a></dd>
         </dl>
     </li>
 </ul>
