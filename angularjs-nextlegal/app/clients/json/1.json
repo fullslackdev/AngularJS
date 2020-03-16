@@ -15,9 +15,14 @@
     "description": "NautaDutilh is met meer dan 400 advocaten, notarissen en belastingadviseurs en vestigingen in Amsterdam, Brussel, Londen, Luxemburg, New York en Rotterdam een van de grootste advocatenkantoren in de Benelux. NautaDutilh biedt juridische dienstverlening op het hoogste niveau. Door internationaal te opereren en tegelijkertijd onafhankelijk te blijven hebben wij onze eigen koers bepaald. NautaDutilh biedt haar (internationale) clienten een scala aan bedrijfsjuridische diensten. Om dit te kunnen realiseren bieden wij als werkgever de ruimte aan talentvolle mensen met karakter.",
 	"lawyers": 266,
 	"projects": [
-		2,
-		3,
-		5
+		{
+			"id": 5,
+			"name": "Cupidatat Aute"
+		},
+		{
+			"id": 6,
+			"name": "Qui Eu"
+		}
 	],
     "images": [
         "https://via.placeholder.com/400",

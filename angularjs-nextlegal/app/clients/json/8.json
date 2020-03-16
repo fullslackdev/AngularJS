@@ -15,9 +15,30 @@
     "description": "Pels Rijcken behoort tot de top van advocaten- en notarissenkantoren in Nederland. Vanuit het kantoor in Den Haag zetten 290 professionals zich in voor optimale service- en dienstverlening. Tot de partners behoort ook de landsadvocaat. Het kantoor biedt hoogwaardig juridisch maatwerk voor toonaangevende cli\u00EBnten. Onder hen behoren van oudsher de Staat, provincies en gemeenten. Daarnaast rekent Pels Rijcken ook toezichthouders en grote (inter)nationale ondernemingen tot haar cli\u00EBnten.",
 	"lawyers": 151,
 	"projects": [
-		2,
-		3,
-		5
+		{
+			"id": 1,
+			"name": "Non Commodo"
+		},
+		{
+			"id": 4,
+			"name": "Qui Sint"
+		},
+		{
+			"id": 10,
+			"name": "Enim Ipsum"
+		},
+		{
+			"id": 11,
+			"name": "Adipisicing Sit"
+		},
+		{
+			"id": 18,
+			"name": "Lorem Ex"
+		},
+		{
+			"id": 19,
+			"name": "Minim Cillum"
+		}
 	],
     "images": [
         "https://via.placeholder.com/400",

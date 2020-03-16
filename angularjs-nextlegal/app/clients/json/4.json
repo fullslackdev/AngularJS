@@ -15,9 +15,38 @@
     "description": "AKD is een full-service Beneluxkantoor met ruim 476 advocaten, fiscalisten, notarissen en business support in Belgi\u00EB, Nederland en Luxemburg. Wij zijn voor onze cli\u00EBnten de gateway in, van en naar de Benelux. De combinatie van onze full-service expertise en een brede sectorfocus maakt dat wij al ruim een eeuw elke vraag vanuit verschillende oogpunten kunnen benaderen en oplossen – waar ook ter wereld. Dit doen wij vanuit onze eigen vestigingen, met onze diverse landenteams, en met een groot Friends Netwerk over de hele wereld.",
 	"lawyers": 196,
 	"projects": [
-		2,
-		3,
-		5
+		{
+			"id": 1,
+			"name": "Non Commodo"
+		},
+		{
+			"id": 2,
+			"name": "Ipsum Non"
+		},
+		{
+			"id": 6,
+			"name": "Qui Eu"
+		},
+		{
+			"id": 8,
+			"name": "Commodo Labore"
+		},
+		{
+			"id": 9,
+			"name": "Consectetur Exercitation"
+		},
+		{
+			"id": 11,
+			"name": "Adipisicing Sit"
+		},
+		{
+			"id": 14,
+			"name": "Laborum Proident"
+		},
+		{
+			"id": 15,
+			"name": "Officia Labore"
+		}
 	],
     "images": [
         "https://via.placeholder.com/400",

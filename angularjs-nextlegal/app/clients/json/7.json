@@ -15,9 +15,34 @@
     "description": "Van Doorne is een toonaangevend onafhankelijk Nederlands kantoor. Met circa 185 advocaten, notarissen en fiscalisten adviseren wij onze cli\u00EBnten al bijna 90 jaar. Wij werken voor Nederlandse en internationale ondernemingen, zakelijke en financi\u00EBle dienstverleners, semipublieke organisaties en overheidsinstellingen. Ook zijn wij Rijksadvocaat. Wij streven naar duurzame relaties met onze cli\u00EBnten. Met de meeste van hen werken we al jarenlang samen en daar zijn we trots op.",
 	"lawyers": 153,
 	"projects": [
-		2,
-		3,
-		5
+		{
+			"id": 3,
+			"name": "Voluptate Dolor"
+		},
+		{
+			"id": 4,
+			"name": "Qui Sint"
+		},
+		{
+			"id": 5,
+			"name": "Cupidatat Aute"
+		},
+		{
+			"id": 8,
+			"name": "Commodo Labore"
+		},
+		{
+			"id": 10,
+			"name": "Enim Ipsum"
+		},
+		{
+			"id": 12,
+			"name": "Ex Ut"
+		},
+		{
+			"id": 18,
+			"name": "Lorem Ex"
+		}
 	],
     "images": [
         "https://via.placeholder.com/400",

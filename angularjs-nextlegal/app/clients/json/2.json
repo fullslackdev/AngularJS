@@ -15,9 +15,26 @@
     "description": "Loyens \u0026 Loeff is een gerenommeerd kantoor waar onze specialisten adviseren op zowel civiel als fiscaal gebied. Tot onze cli\u00EBnten behoren grote ondernemingen, financiële instellingen en overheden. Het unieke van ons kantoor is de intensieve samenwerking tussen advocaten, belastingadviseurs en notarissen. Onze thuismarkt is de Benelux. Daarnaast is Loyens \u0026 Loeff vertegenwoordigd in de belangrijkste financi\u00EBle centra van Europa, Azi\u00EB en de Verenigde Staten. Wereldwijd werken 1600 medewerkers bij Loyens \u0026 Loeff, waaronder ruim 850 advocaten, notarissen en fiscalisten.",
 	"lawyers": 255,
 	"projects": [
-		2,
-		3,
-		5
+		{
+			"id": 4,
+			"name": "Qui Sint"
+		},
+		{
+			"id": 7,
+			"name": "Do Incididunt"
+		},
+		{
+			"id": 9,
+			"name": "Consectetur Exercitation"
+		},
+		{
+			"id": 14,
+			"name": "Laborum Proident"
+		},
+		{
+			"id": 17,
+			"name": "Ipsum Consectetur"
+		}
 	],
     "images": [
         "https://via.placeholder.com/400",

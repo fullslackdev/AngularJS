@@ -15,9 +15,38 @@
     "description": "Houthoff helpt cli\u00EBnten vooruit op kritieke momenten met praktische oplossingen voor complexe juridische problemen. Houthoff is een onafhankelijk, leidend Nederlands advocatenkantoor met 300 advocaten, notarissen en belastingadviseurs die hoogwaardig juridisch advies en ondersteuning bieden aan een omvangrijke nationale en internationale clientèle. Cli\u00EBnten kiezen voor Houthoff bij de aanpak van hun meest complexe en kritieke problemen. Problemen waarbij niet alleen juridische kennis van essentieel belang is, maar ook solide strategisch advies. Waarom? De diepgaande juridische kennis van onze praktijkgroepen in combinatie met de brede marktkennis van onze sectorgroepen, stelt ons in staat om altijd de beste resultaten te bereiken voor onze cli\u00EBnten.",
 	"lawyers": 245,
 	"projects": [
-		2,
-		3,
-		5
+		{
+			"id": 0,
+			"name": "Duis Nulla"
+		},
+		{
+			"id": 1,
+			"name": "Non Commodo"
+		},
+		{
+			"id": 4,
+			"name": "Qui Sint"
+		},
+		{
+			"id": 8,
+			"name": "Commodo Labore"
+		},
+		{
+			"id": 9,
+			"name": "Consectetur Exercitation"
+		},
+		{
+			"id": 10,
+			"name": "Enim Ipsum"
+		},
+		{
+			"id": 11,
+			"name": "Adipisicing Sit"
+		},
+		{
+			"id": 19,
+			"name": "Minim Cillum"
+		}
 	],
     "images": [
         "https://via.placeholder.com/400",

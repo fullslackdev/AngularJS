@@ -15,9 +15,38 @@
     "description": "Clifford Chance is one of the world's pre-eminent law firms with significant depth and range of resources across five continents.  As a single, fully integrated, global partnership, we pride ourselves on our approachable, collegiate and team based way of working.  We always strive to exceed the expectations of our clients, which include corporates from all the commercial and industrial sectors, governments, regulators, trade bodies and not for profit organisations.  We provide them with the highest quality advice and legal insight, which combines the Firm's global standards with in-depth local expertise.",
 	"lawyers": 126,
 	"projects": [
-		2,
-		3,
-		5
+		{
+			"id": 2,
+			"name": "Ipsum Non"
+		},
+		{
+			"id": 5,
+			"name": "Cupidatat Aute"
+		},
+		{
+			"id": 7,
+			"name": "Do Incididunt"
+		},
+		{
+			"id": 11,
+			"name": "Adipisicing Sit"
+		},
+		{
+			"id": 12,
+			"name": "Ex Ut"
+		},
+		{
+			"id": 13,
+			"name": "Est Duis"
+		},
+		{
+			"id": 15,
+			"name": "Officia Labore"
+		},
+		{
+			"id": 17,
+			"name": "Ipsum Consectetur"
+		}
 	],
     "images": [
         "https://via.placeholder.com/400",

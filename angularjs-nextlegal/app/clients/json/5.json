@@ -15,9 +15,26 @@
     "description": "Stibbe behartigt de belangen van vele cli\u00EBnten. Achter de schermen, maar ook in het volle licht van de publiciteit. Dat doen we al ruim 100 jaar, sinds de oprichting aan het Rokin in Amsterdam in 1911. Met circa 190 juristen in tien praktijkgroepen en met zes vestigingen wereldwijd. De verschillende rechtsgebieden zijn onderverdeeld in praktijkgroepen. De eerste 27 maanden van je advocaatstage breng je door bij de praktijkgroep van jouw voorkeur. Daarna werk je een jaar bij een andere praktijkgroep om daar relevante ervaring binnen een ander rechtsgebied op te doen.",
 	"lawyers": 193,
 	"projects": [
-		2,
-		3,
-		5
+		{
+			"id": 0,
+			"name": "Duis Nulla"
+		},
+		{
+			"id": 1,
+			"name": "Non Commodo"
+		},
+		{
+			"id": 10,
+			"name": "Enim Ipsum"
+		},
+		{
+			"id": 13,
+			"name": "Est Duis"
+		},
+		{
+			"id": 16,
+			"name": "Commodo Veniam"
+		}
 	],
     "images": [
         "https://via.placeholder.com/400",

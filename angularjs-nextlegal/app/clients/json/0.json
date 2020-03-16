@@ -15,9 +15,26 @@
     "description": "De Brauw Blackstone Westbroek is het grootste  advocatenkantoor van Nederland, met vestigingen in Amsterdam, Brussel, Londen, New York, Shanghai en Singapore. Met ruim 650 collega's werken we voor de top van het Nederlandse en internationale bedrijfsleven. Samenwerking, teamgeest en respect voor elkaars vakmanschap staan daarbij centraal.",
 	"lawyers": 298,
 	"projects": [
-		1,
-		2,
-		3
+		{
+			"id": 3,
+			"name": "Voluptate Dolor"
+		},
+		{
+			"id": 6,
+			"name": "Qui Eu"
+		},
+		{
+			"id": 11,
+			"name": "Adipisicing Sit"
+		},
+		{
+			"id": 15,
+			"name": "Officia Labore"
+		},
+		{
+			"id": 16,
+			"name": "Commodo Veniam"
+		}
 	],
     "images": [
         "https://via.placeholder.com/400",
