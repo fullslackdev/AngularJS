@@ -50,7 +50,7 @@
         <span>Projecten</span>
         <dl>
             <dt>Gegevens</dt>
-            <dd ng-repeat="project in $ctrl.client.projects">
+            <dd ng-repeat="project in $ctrl.client.projects | orderBy: 'name'">
                 <a href="#!/projects/{{project.id}}">{{project.name}}</a></dd>
         </dl>
     </li>
