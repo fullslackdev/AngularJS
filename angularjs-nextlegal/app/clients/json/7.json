@@ -1,0 +1,27 @@
+{
+	"id": 7,
+    "name": "Van Doorne",
+	"location": {
+		"address": "Jachthavenweg 121",
+		"zipcode": "1081 KM",
+		"city": "Amsterdam",
+		"country": "The Netherlands"
+	},
+	"contact": {
+		"phonenumber": "+31206789123 ",
+		"email": "info@vandoorne.com",
+		"website": "https://www.vandoorne.com/"
+	},
+    "description": "Van Doorne is een toonaangevend onafhankelijk Nederlands kantoor. Met circa 185 advocaten, notarissen en fiscalisten adviseren wij onze cli\u00EBnten al bijna 90 jaar. Wij werken voor Nederlandse en internationale ondernemingen, zakelijke en financi\u00EBle dienstverleners, semipublieke organisaties en overheidsinstellingen. Ook zijn wij Rijksadvocaat. Wij streven naar duurzame relaties met onze cli\u00EBnten. Met de meeste van hen werken we al jarenlang samen en daar zijn we trots op.",
+	"lawyers": 153,
+	"projects": [
+		2,
+		3,
+		5
+	],
+    "images": [
+        "https://via.placeholder.com/400",
+        "https://via.placeholder.com/400/00FF00",
+        "https://via.placeholder.com/400/0000FF"
+    ]
+}

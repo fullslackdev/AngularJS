@@ -1,0 +1,29 @@
+{
+	"id": 3,
+    "name": "Houthoff",
+	"location": {
+		"address": "Gustav Mahlerplein 50",
+		"zipcode": "1082 MA",
+		"city": "Amsterdam",
+		"country": "The Netherlands"
+	},
+	"contact": {
+		"phonenumber": "+31206056000",
+		"email": "info@houthoff.com",
+		"website": "https://www.houthoff.com/?sc_lang=nl-NL"
+	},
+    "description": "Houthoff helpt cli\u00EBnten vooruit op kritieke momenten met praktische oplossingen voor complexe juridische problemen. Houthoff is een onafhankelijk, leidend Nederlands advocatenkantoor met 300 advocaten, notarissen en belastingadviseurs die hoogwaardig juridisch advies en ondersteuning bieden aan een omvangrijke nationale en internationale clientèle. Cli\u00EBnten kiezen voor Houthoff bij de aanpak van hun meest complexe en kritieke problemen. Problemen waarbij niet alleen juridische kennis van essentieel belang is, maar ook solide strategisch advies. Waarom? De diepgaande juridische kennis van onze praktijkgroepen in combinatie met de brede marktkennis van onze sectorgroepen, stelt ons in staat om altijd de beste resultaten te bereiken voor onze cli\u00EBnten.",
+	"lawyers": 245,
+	"projects": [
+		2,
+		3,
+		5
+	],
+    "images": [
+        "https://via.placeholder.com/400",
+        "https://via.placeholder.com/400/FF0000",
+        "https://via.placeholder.com/400/00FF00",
+        "https://via.placeholder.com/400/0000FF",
+        "https://via.placeholder.com/400/FF00FF"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+	"id": 6,
+    "name": "Allen \u0026 Overy",
+	"location": {
+		"address": "Apollolaan 15",
+		"zipcode": "1077 AB",
+		"city": "Amsterdam",
+		"country": "The Netherlands"
+	},
+	"contact": {
+		"phonenumber": "+31206741000",
+		"email": "NLOfficeManagementAmsterdam@AllenOvery.com",
+		"website": "https://www.allenovery.com/en-gb/global"
+	},
+    "description": "We think and work with our clients. Our lawyers are recognised for their commercial understanding and for daring to take a stand and provide clear recommendations; a rare phenomenon in legal practice. Allen \u0026 Overy's Amsterdam office, is known for its individual experts and their ability to join forces, across practice areas and borders, to get deals done and to find solutions in highly complex cases.",
+	"lawyers": 169,
+	"projects": [
+		2,
+		3,
+		5
+	],
+    "images": [
+        "https://via.placeholder.com/400",
+        "https://via.placeholder.com/400/FF0000",
+        "https://via.placeholder.com/400/00FF00",
+        "https://via.placeholder.com/400/0000FF"
+    ]
+}

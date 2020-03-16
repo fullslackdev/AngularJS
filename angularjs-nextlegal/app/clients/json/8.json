@@ -1,0 +1,29 @@
+{
+	"id": 8,
+    "name": "Pels Rijcken",
+	"location": {
+		"address": "Bezuidenhoutseweg 57",
+		"zipcode": "2594 AC",
+		"city": "Den Haag",
+		"country": "The Netherlands"
+	},
+	"contact": {
+		"phonenumber": "+31705153000",
+		"email": "info@pelsrijcken.nl",
+		"website": "https://www.pelsrijcken.nl/"
+	},
+    "description": "Pels Rijcken behoort tot de top van advocaten- en notarissenkantoren in Nederland. Vanuit het kantoor in Den Haag zetten 290 professionals zich in voor optimale service- en dienstverlening. Tot de partners behoort ook de landsadvocaat. Het kantoor biedt hoogwaardig juridisch maatwerk voor toonaangevende cli\u00EBnten. Onder hen behoren van oudsher de Staat, provincies en gemeenten. Daarnaast rekent Pels Rijcken ook toezichthouders en grote (inter)nationale ondernemingen tot haar cli\u00EBnten.",
+	"lawyers": 151,
+	"projects": [
+		2,
+		3,
+		5
+	],
+    "images": [
+        "https://via.placeholder.com/400",
+        "https://via.placeholder.com/400/FF0000",
+        "https://via.placeholder.com/400/00FF00",
+        "https://via.placeholder.com/400/0000FF",
+        "https://via.placeholder.com/400/FFFF00"
+    ]
+}

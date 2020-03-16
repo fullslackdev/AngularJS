@@ -1,0 +1,28 @@
+{
+	"id": 1,
+    "name": "NautaDutilh",
+	"location": {
+		"address": "Beethovenstraat 400",
+		"zipcode": "1082 PR",
+		"city": "Amsterdam",
+		"country": "The Netherlands"
+	},
+	"contact": {
+		"phonenumber": "+31207171000",
+		"email": "info@nautadutilh.com",
+		"website": "https://www.nautadutilh.com/nl"
+	},
+    "description": "NautaDutilh is met meer dan 400 advocaten, notarissen en belastingadviseurs en vestigingen in Amsterdam, Brussel, Londen, Luxemburg, New York en Rotterdam een van de grootste advocatenkantoren in de Benelux. NautaDutilh biedt juridische dienstverlening op het hoogste niveau. Door internationaal te opereren en tegelijkertijd onafhankelijk te blijven hebben wij onze eigen koers bepaald. NautaDutilh biedt haar (internationale) clienten een scala aan bedrijfsjuridische diensten. Om dit te kunnen realiseren bieden wij als werkgever de ruimte aan talentvolle mensen met karakter.",
+	"lawyers": 266,
+	"projects": [
+		2,
+		3,
+		5
+	],
+    "images": [
+        "https://via.placeholder.com/400",
+        "https://via.placeholder.com/400/FF0000",
+        "https://via.placeholder.com/400/00FF00",
+        "https://via.placeholder.com/400/0000FF"
+    ]
+}

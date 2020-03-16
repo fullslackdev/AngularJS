@@ -1,0 +1,72 @@
+[
+    {
+        "id": 0,
+        "imageUrl": "https://via.placeholder.com/100",
+        "name": "De Brauw Blackstone Westbroek",
+        "snippet": "De Brauw Blackstone Westbroek is het grootste  advocatenkantoor van Nederland, met vestigingen in Amsterdam, Brussel, Londen, New York, Shanghai en Singapore.",
+		"lawyers": 298
+    }, 
+    {
+        "id": 1,
+        "imageUrl": "https://via.placeholder.com/100",
+        "name": "NautaDutilh",
+        "snippet": "NautaDutilh is met meer dan 400 advocaten, notarissen en belastingadviseurs en vestigingen in Amsterdam, Brussel, Londen, Luxemburg, New York en Rotterdam een van de grootste advocatenkantoren in de Benelux.",
+		"lawyers": 266
+    }, 
+    {
+        "id": 2,
+        "imageUrl": "https://via.placeholder.com/100",
+        "name": "Loyens \u0026 Loeff",
+        "snippet": "Loyens \u0026 Loeff is een gerenommeerd kantoor waar onze specialisten adviseren op zowel civiel als fiscaal gebied.",
+		"lawyers": 255
+    }, 
+    {
+        "id": 3,
+        "imageUrl": "https://via.placeholder.com/100",
+        "name": "Houthoff",
+        "snippet": "Houthoff helpt cli\u00EBnten vooruit op kritieke momenten met praktische oplossingen voor complexe juridische problemen",
+		"lawyers": 245
+    }, 
+    {
+        "id": 4,
+        "imageUrl": "https://via.placeholder.com/100",
+        "name": "AKD Benelux Lawyers",
+        "snippet": "AKD is een full-service Beneluxkantoor met ruim 476 advocaten, fiscalisten, notarissen en business support in Belgi\u00EB, Nederland en Luxemburg.",
+		"lawyers": 196
+    }, 
+    {
+        "id": 5,
+        "imageUrl": "https://via.placeholder.com/100",
+        "name": "Stibbe",
+        "snippet": "Bij Stibbe werken circa 300 juristen, verdeeld over kantoren in Amsterdam, Brussel, Luxemburg, Dubai, Londen en New York.",
+		"lawyers": 193
+    }, 
+    {
+        "id": 6,
+        "imageUrl": "https://via.placeholder.com/100",
+        "name": "Allen \u0026 Overy",
+        "snippet": "Allen \u0026 Overy bestaat uit een hechte groep van zo’n 200 advocaten, (kandidaat-)notarissen en fiscalisten, onder wie 34 partners, en zo’n 120 medewerkers in de support staf.",
+		"lawyers": 169
+    }, 
+    {
+        "id": 7,
+        "imageUrl": "https://via.placeholder.com/100",
+        "name": "Van Doorne",
+        "snippet": "Van Doorne is een toonaangevend onafhankelijk Nederlands kantoor. Met circa 185 advocaten, notarissen en fiscalisten adviseren wij onze cli\u00EBnten al bijna 90 jaar. ",
+		"lawyers": 153
+    }, 
+    {
+        "id": 8,
+        "imageUrl": "https://via.placeholder.com/100",
+        "name": "Pels Rijcken",
+        "snippet": "Pels Rijcken behoort tot de top van advocaten- en notarissenkantoren in Nederland.",
+		"lawyers": 151
+    }, 
+    {
+        "id": 9,
+        "imageUrl": "https://via.placeholder.com/100",
+        "name": "Clifford Chance",
+        "snippet": "Clifford Chance is one of the world's pre-eminent law firms with significant depth and range of resources across five continents.",
+		"lawyers": 126
+    }
+]

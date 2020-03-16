@@ -1,0 +1,28 @@
+{
+	"id": 5,
+    "name": "Stibbe",
+	"location": {
+		"address": "Beethovenplein 10",
+		"zipcode": "1077 WM",
+		"city": "Amsterdam",
+		"country": "The Netherlands"
+	},
+	"contact": {
+		"phonenumber": "+31205460606",
+		"email": "amsterdam@stibbe.com",
+		"website": "https://akd.eu/nl"
+	},
+    "description": "Stibbe behartigt de belangen van vele cli\u00EBnten. Achter de schermen, maar ook in het volle licht van de publiciteit. Dat doen we al ruim 100 jaar, sinds de oprichting aan het Rokin in Amsterdam in 1911. Met circa 190 juristen in tien praktijkgroepen en met zes vestigingen wereldwijd. De verschillende rechtsgebieden zijn onderverdeeld in praktijkgroepen. De eerste 27 maanden van je advocaatstage breng je door bij de praktijkgroep van jouw voorkeur. Daarna werk je een jaar bij een andere praktijkgroep om daar relevante ervaring binnen een ander rechtsgebied op te doen.",
+	"lawyers": 193,
+	"projects": [
+		2,
+		3,
+		5
+	],
+    "images": [
+        "https://via.placeholder.com/400",
+        "https://via.placeholder.com/400/FF0000",
+        "https://via.placeholder.com/400/00FF00",
+        "https://via.placeholder.com/400/0000FF"
+    ]
+}

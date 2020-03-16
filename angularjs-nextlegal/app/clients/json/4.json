@@ -1,0 +1,27 @@
+{
+	"id": 4,
+    "name": "AKD Benelux Lawyers",
+	"location": {
+		"address": "Gustav Mahlerlaan 2970",
+		"zipcode": "1081 LA",
+		"city": "Amsterdam",
+		"country": "The Netherlands"
+	},
+	"contact": {
+		"phonenumber": "+31882535000",
+		"email": "info@akd.nl",
+		"website": "https://akd.eu/nl"
+	},
+    "description": "AKD is een full-service Beneluxkantoor met ruim 476 advocaten, fiscalisten, notarissen en business support in Belgi\u00EB, Nederland en Luxemburg. Wij zijn voor onze cli\u00EBnten de gateway in, van en naar de Benelux. De combinatie van onze full-service expertise en een brede sectorfocus maakt dat wij al ruim een eeuw elke vraag vanuit verschillende oogpunten kunnen benaderen en oplossen – waar ook ter wereld. Dit doen wij vanuit onze eigen vestigingen, met onze diverse landenteams, en met een groot Friends Netwerk over de hele wereld.",
+	"lawyers": 196,
+	"projects": [
+		2,
+		3,
+		5
+	],
+    "images": [
+        "https://via.placeholder.com/400",
+        "https://via.placeholder.com/400/FF0000",
+        "https://via.placeholder.com/400/0000FF"
+    ]
+}

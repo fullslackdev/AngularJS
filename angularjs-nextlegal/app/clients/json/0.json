@@ -1,0 +1,27 @@
+{
+	"id": 0,
+    "name": "De Brauw Blackstone Westbroek",
+	"location": {
+		"address": "Claude Debussylaan 80",
+		"zipcode": "1082 MD",
+		"city": "Amsterdam",
+		"country": "The Netherlands"
+	},
+	"contact": {
+		"phonenumber": "+31205771771",
+		"email": "info@debrauw.com",
+		"website": "https://www.debrauw.com/"
+	},
+    "description": "De Brauw Blackstone Westbroek is het grootste  advocatenkantoor van Nederland, met vestigingen in Amsterdam, Brussel, Londen, New York, Shanghai en Singapore. Met ruim 650 collega's werken we voor de top van het Nederlandse en internationale bedrijfsleven. Samenwerking, teamgeest en respect voor elkaars vakmanschap staan daarbij centraal.",
+	"lawyers": 298,
+	"projects": [
+		1,
+		2,
+		3
+	],
+    "images": [
+        "https://via.placeholder.com/400",
+        "https://via.placeholder.com/400/FF0000",
+        "https://via.placeholder.com/400/00FF00"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+	"id": 9,
+    "name": "Clifford Chance",
+	"location": {
+		"address": "IJsbaanpad 2",
+		"zipcode": "1076 CV",
+		"city": "Amsterdam",
+		"country": "The Netherlands"
+	},
+	"contact": {
+		"phonenumber": "+31207119000",
+		"email": "info@cliffordchance.com",
+		"website": "https://www.cliffordchance.com/home.html"
+	},
+    "description": "Clifford Chance is one of the world's pre-eminent law firms with significant depth and range of resources across five continents.  As a single, fully integrated, global partnership, we pride ourselves on our approachable, collegiate and team based way of working.  We always strive to exceed the expectations of our clients, which include corporates from all the commercial and industrial sectors, governments, regulators, trade bodies and not for profit organisations.  We provide them with the highest quality advice and legal insight, which combines the Firm's global standards with in-depth local expertise.",
+	"lawyers": 126,
+	"projects": [
+		2,
+		3,
+		5
+	],
+    "images": [
+        "https://via.placeholder.com/400",
+        "https://via.placeholder.com/400/FF0000",
+        "https://via.placeholder.com/400/00FF00",
+        "https://via.placeholder.com/400/0000FF"
+    ]
+}

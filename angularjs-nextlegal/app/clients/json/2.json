@@ -1,0 +1,28 @@
+{
+	"id": 2,
+    "name": "Loyens \u0026 Loeff",
+	"location": {
+		"address": "Fred. Roeskestraat 100",
+		"zipcode": "1076 ED",
+		"city": "Amsterdam",
+		"country": "The Netherlands"
+	},
+	"contact": {
+		"phonenumber": "+31205785785",
+		"email": "info@loyensloeff.com",
+		"website": "https://www.loyensloeff.com/nl/nl/"
+	},
+    "description": "Loyens \u0026 Loeff is een gerenommeerd kantoor waar onze specialisten adviseren op zowel civiel als fiscaal gebied. Tot onze cli\u00EBnten behoren grote ondernemingen, financiële instellingen en overheden. Het unieke van ons kantoor is de intensieve samenwerking tussen advocaten, belastingadviseurs en notarissen. Onze thuismarkt is de Benelux. Daarnaast is Loyens \u0026 Loeff vertegenwoordigd in de belangrijkste financi\u00EBle centra van Europa, Azi\u00EB en de Verenigde Staten. Wereldwijd werken 1600 medewerkers bij Loyens \u0026 Loeff, waaronder ruim 850 advocaten, notarissen en fiscalisten.",
+	"lawyers": 255,
+	"projects": [
+		2,
+		3,
+		5
+	],
+    "images": [
+        "https://via.placeholder.com/400",
+        "https://via.placeholder.com/400/FF0000",
+        "https://via.placeholder.com/400/00FF00",
+        "https://via.placeholder.com/400/0000FF"
+    ]
+}
