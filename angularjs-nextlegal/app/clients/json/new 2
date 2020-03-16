@@ -23,7 +23,7 @@
       projects: [
         {
           'repeat(2, 5)': {
-		    id: '{{integer(1, 20)}}',
+		    id: '{{integer(0, 19)}}',
 			name(tags) {
 			  return `projectName${this.id}`;
 			}

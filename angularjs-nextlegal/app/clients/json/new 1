@@ -17,7 +17,17 @@
           }
         }
       ],
-      balance: '{{floating(10000, 1000000, 2, "€0,0.00")}}',
+      clients: [
+        {
+          'repeat(2, 5)': {
+		    id: '{{integer(0, 9)}}',
+			name(tags) {
+			  return `client${this.id}`;
+			}
+		  }
+        }
+      ],
+      balance: '{{floating(10000, 1000000, 2, "$0,0.00")}}',
       snippet: '{{lorem(2, "sentence")}}'
     }
   }
