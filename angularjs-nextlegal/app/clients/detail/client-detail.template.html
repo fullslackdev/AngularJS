@@ -16,102 +16,41 @@
 
 <ul class="specs">
     <li>
-        <span>Availability and Networks</span>
+        <span>Adres</span>
         <dl>
-            <dt>Availability</dt>
-            <dd ng-repeat="availability in $ctrl.client.availability">{{availability}}</dd>
+            <dt>Straat</dt>
+            <dd>{{$ctrl.client.location.address}}</dd>
+            <dt>Postcode</dt>
+            <dd>{{$ctrl.client.location.zipcode}}</dd>
+            <dt>Plaats</dt>
+            <dd>{{$ctrl.client.location.city}}</dd>
+            <dt>Land</dt>
+            <dd>{{$ctrl.client.location.country}}</dd>
         </dl>
     </li>
     <li>
-        <span>Battery</span>
+        <span>Contact</span>
         <dl>
-            <dt>Type</dt>
-            <dd>{{$ctrl.client.battery.type}}</dd>
-            <dt>Talk Time</dt>
-            <dd>{{$ctrl.client.battery.talkTime}}</dd>
-            <dt>Standby time (max)</dt>
-            <dd>{{$ctrl.client.battery.standbyTime}}</dd>
+            <dt>Telefoon</dt>
+            <dd><a href="tel:{{$ctrl.client.contact.phonenumber}}">{{$ctrl.client.contact.phonenumber}}</a></dd>
+            <dt>E-Mail</dt>
+            <dd><a href="mailto:{{$ctrl.client.contact.email}}">{{$ctrl.client.contact.email}}</a></dd>
+            <dt>Website</dt>
+            <dd><a href="{{$ctrl.client.contact.website}}" target="_blank">{{$ctrl.client.contact.website}}</a></dd>
         </dl>
     </li>
     <li>
-        <span>Storage and Memory</span>
+        <span>Advocaten</span>
         <dl>
-            <dt>RAM</dt>
-            <dd>{{$ctrl.client.storage.ram}}</dd>
-            <dt>Internal Storage</dt>
-            <dd>{{$ctrl.client.storage.flash}}</dd>
+            <dt>Aantal in dienst</dt>
+            <dd>{{$ctrl.client.lawyers}}</dd>
         </dl>
     </li>
     <li>
-        <span>Connectivity</span>
+        <span>Projecten</span>
         <dl>
-            <dt>Network Support</dt>
-            <dd>{{$ctrl.client.connectivity.cell}}</dd>
-            <dt>WiFi</dt>
-            <dd>{{$ctrl.client.connectivity.wifi}}</dd>
-            <dt>Bluetooth</dt>
-            <dd>{{$ctrl.client.connectivity.bluetooth}}</dd>
-            <dt>Infrared</dt>
-            <dd>{{$ctrl.client.connectivity.infrared | checkmark}}</dd>
-            <dt>GPS</dt>
-            <dd>{{$ctrl.client.connectivity.gps | checkmark}}</dd>
+            <dt>Gegevens</dt>
+            <dd ng-repeat="dim in $ctrl.client.projects">{{dim}}</dd>
         </dl>
-    </li>
-    <li>
-        <span>Android</span>
-        <dl>
-            <dt>OS Version</dt>
-            <dd>{{$ctrl.client.android.os}}</dd>
-            <dt>UI</dt>
-            <dd>{{$ctrl.client.android.ui}}</dd>
-        </dl>
-    </li>
-    <li>
-        <span>Size and Weight</span>
-        <dl>
-            <dt>Dimensions</dt>
-            <dd ng-repeat="dim in $ctrl.client.sizeAndWeight.dimensions">{{dim}}</dd>
-            <dt>Weight</dt>
-            <dd>{{$ctrl.client.sizeAndWeight.weight}}</dd>
-        </dl>
-    </li>
-    <li>
-        <span>Display</span>
-        <dl>
-            <dt>Screen size</dt>
-            <dd>{{$ctrl.client.display.screenSize}}</dd>
-            <dt>Screen resolution</dt>
-            <dd>{{$ctrl.client.display.screenResolution}}</dd>
-            <dt>Touch screen</dt>
-            <dd>{{$ctrl.phone.display.touchScreen | checkmark}}</dd>
-        </dl>
-    </li>
-    <li>
-        <span>Hardware</span>
-        <dl>
-            <dt>CPU</dt>
-            <dd>{{$ctrl.client.hardware.cpu}}</dd>
-            <dt>USB</dt>
-            <dd>{{$ctrl.client.hardware.usb}}</dd>
-            <dt>Audio / headphone jack</dt>
-            <dd>{{$ctrl.client.hardware.audioJack}}</dd>
-            <dt>FM Radio</dt>
-            <dd>{{$ctrl.client.hardware.fmRadio | checkmark}}</dd>
-            <dt>Accelerometer</dt>
-            <dd>{{$ctrl.client.hardware.accelerometer | checkmark}}</dd>
-        </dl>
-    </li>
-    <li>
-        <span>Camera</span>
-        <dl>
-            <dt>Primary</dt>
-            <dd>{{$ctrl.client.camera.primary}}</dd>
-            <dt>Features</dt>
-            <dd>{{$ctrl.client.camera.features.join(', ')}}</dd>
-        </dl>
-    </li>
-    <li>
-        <span>Additional Features</span>
-        <dd>{{$ctrl.client.additionalFeatures}}</dd>
     </li>
 </ul>
