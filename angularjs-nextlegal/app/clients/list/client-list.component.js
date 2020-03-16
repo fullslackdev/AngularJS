@@ -8,7 +8,7 @@ angular.
         controller: ['ClientFactory',
             function ClientListController(Client) {
                 this.clients = Client.query();
-                this.orderProp = 'age';
+                this.orderProp = 'name';
             }
         ]
     });

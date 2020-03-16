@@ -9,7 +9,7 @@ angular.
             function ClientDetailController($routeParams, Client) {
                 var self = this;
 
-                self.client = Client.get({phoneId: $routeParams.phoneId}, function(client) {
+                self.client = Client.get({clientId: $routeParams.clientIdParam}, function(client) {
                     self.setImage(client.images[0]);
                 });
 

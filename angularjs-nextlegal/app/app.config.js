@@ -8,7 +8,7 @@ angular.
                 when('/clients', {
                     template: '<client-list-component></client-list-component>' // This is translated to the component name
                 }).
-                when('/clients/:phoneId', {
+                when('/clients/:clientIdParam', {
                     template: '<client-detail-component></client-detail-component>'
                 }).
                 otherwise('/clients');
