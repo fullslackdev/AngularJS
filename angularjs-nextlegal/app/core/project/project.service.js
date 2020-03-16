@@ -8,7 +8,8 @@ angular.
                 query: {
                     method: 'GET',
                     params: {projectId: 'projects'},
-                    isArray: true
+                    isArray: true,
+                    cache: true
                 }
             });
         }

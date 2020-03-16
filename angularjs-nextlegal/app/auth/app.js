@@ -34,6 +34,26 @@
                 templateUrl: 'auth/callback/callback.html',
                 controllerAs: 'vm'
             })
+            .state('clientList', {
+                url: '/clients',
+                component: 'clientListComponent'
+            })
+            .state('clientDetail', {
+                url: '/clients/:clientIdParam',
+                component: 'clientDetailComponent'
+            })
+            .state('projectList', {
+                url: '/projects',
+                component: 'projectListComponent'
+            })
+            .state('projectDetail', {
+                url: '/projects/:projectIdParam',
+                component: 'projectDetailComponent'
+            })
+            .state('projectNoteDetail', {
+                url: '/projects/:projectIdParam/note/:projectNoteIdParam',
+                component: 'projectNoteDetailComponent'
+            })
             .state('profile', {
                 url: '/profile',
                 controller: 'ProfileController',
@@ -59,7 +79,7 @@
 
         $httpProvider.interceptors.push('jwtInterceptor');
 
-        // $urlRouterProvider.otherwise('/');
+        $urlRouterProvider.otherwise('/');
 
         $locationProvider.hashPrefix('');
 

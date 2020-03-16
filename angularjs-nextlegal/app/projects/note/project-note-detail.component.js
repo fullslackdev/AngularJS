@@ -4,15 +4,18 @@
 angular.
     module('projectNoteDetailModule').
     component('projectNoteDetailComponent', {
+        controllerAs: 'vm',
         templateUrl: 'projects/note/project-note-detail.template.html',
-        controller: ['$routeParams', 'ProjectFactory',
-            function ProjectNoteDetailController($routeParams, Project) {
+        controller: ['$stateParams', 'ProjectFactory', 'authService',
+            function ProjectNoteDetailController($stateParams, Project, authService) {
                 var self = this;
 
-                Project.get({projectId: $routeParams.projectIdParam}).$promise.then(function(data) {
+                Project.get({projectId: $stateParams.projectIdParam}).$promise.then(function(data) {
                     self.project = data;
-                    self.note = data.notes[$routeParams.projectNoteIdParam];
+                    self.note = data.notes[$stateParams.projectNoteIdParam];
                 });
+
+                self.auth = authService;
             }
         ]
     });

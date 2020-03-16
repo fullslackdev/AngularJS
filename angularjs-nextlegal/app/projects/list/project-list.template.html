@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div class="container-fluid" ng-if="vm.auth.isAuthenticated()">
     <div class="row">
         <div class="col-md-2">
             <!--Sidebar content-->
@@ -23,10 +23,10 @@
             <ul class="clients">
                 <li ng-repeat="project in vm.projects | filter:$ctrl.query | orderBy:vm.orderProp"
                     class="thumbnail client-list-item">
-                    <a href="#!/projects/{{project.id}}" class="thumb">
+                    <a href="#/projects/{{project.id}}" class="thumb">
                         <img ng-src="{{project.imageUrl}}" alt="{{project.name}}" />
                     </a>
-                    <a href="#!/projects/{{project.id}}">{{project.name}}</a>
+                    <a href="#/projects/{{project.id}}">{{project.name}}</a>
                     <p>{{project.snippet}}</p>
                 </li>
             </ul>

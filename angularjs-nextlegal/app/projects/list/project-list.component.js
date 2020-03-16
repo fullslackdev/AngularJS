@@ -5,10 +5,12 @@ angular.
     component('projectListComponent', {
         controllerAs: 'vm',
         templateUrl: 'projects/list/project-list.template.html',
-        controller: ['ProjectFactory',
-            function ProjectListController(Project) {
-                this.projects = Project.query();
-                this.orderProp = 'name';
+        controller: ['ProjectFactory', 'authService',
+            function ProjectListController(Project, authService) {
+                var self = this;
+                self.projects = Project.query();
+                self.orderProp = 'name';
+                self.auth = authService;
             }
         ]
     });

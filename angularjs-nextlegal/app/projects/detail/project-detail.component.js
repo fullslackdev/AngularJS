@@ -4,18 +4,21 @@
 angular.
     module('projectDetailModule').
     component('projectDetailComponent', {
+        controllerAs: 'vm',
         templateUrl: 'projects/detail/project-detail.template.html',
-        controller: ['$routeParams', 'ProjectFactory',
-            function ProjectDetailController($routeParams, Project) {
+        controller: ['$stateParams', 'ProjectFactory', 'authService',
+            function ProjectDetailController($stateParams, Project, authService) {
                 var self = this;
 
-                self.project = Project.get({projectId: $routeParams.projectIdParam}, function(project) {
+                self.project = Project.get({projectId: $stateParams.projectIdParam}, function(project) {
                     self.setImage(project.images[0]);
                 });
 
                 self.setImage = function setImage(imageUrl) {
                     self.mainImageUrl = imageUrl;
                 };
+
+                self.auth = authService;
             }
         ]
     });

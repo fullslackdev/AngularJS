@@ -1,6 +1,7 @@
-<h1>{{$ctrl.project.name}}</h1>
+<div class="container-fluid" ng-if="vm.auth.isAuthenticated()"><h1>{{vm.project.name}}</h1>
 
-<h2>{{$ctrl.note.date | date:'medium'}}</h2>
+    <h2>{{vm.note.date | date:'medium'}}</h2>
 
-<p>{{$ctrl.note.text}}</p>
-<p><a href="#!/projects/{{$ctrl.project.id}}">Back to project</a></p>
+    <p>{{vm.note.text}}</p>
+    <p><a href="#/projects/{{vm.project.id}}">Back to project</a></p>
+</div>

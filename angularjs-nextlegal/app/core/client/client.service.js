@@ -8,7 +8,8 @@ angular.
                 query: {
                     method: 'GET',
                     params: {clientId: 'clients'},
-                    isArray: true
+                    isArray: true,
+                    cache: true
                 }
             });
         }
