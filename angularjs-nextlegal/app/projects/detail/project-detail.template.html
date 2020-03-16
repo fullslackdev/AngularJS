@@ -1,0 +1,52 @@
+<div class="client-images">
+    <img ng-src="{{img}}" class="client"
+        ng-class="{selected: img === $ctrl.mainImageUrl}"
+        ng-repeat="img in $ctrl.project.images" />
+</div>
+
+<h1>{{$ctrl.project.name}}</h1>
+
+<p>{{$ctrl.project.description}}</p>
+
+<ul class="client-thumbs">
+    <li ng-repeat="img in $ctrl.project.images">
+        <img ng-src="{{img}}" ng-click="$ctrl.setImage(img)" />
+    </li>
+</ul>
+
+<ul class="specs">
+    <li>
+        <span>Planning</span>
+        <dl>
+            <dt>Start</dt>
+            <dd>{{$ctrl.project.timestamp.start | date:'medium'}}</dd>
+            <dt>Einde</dt>
+            <dd>{{$ctrl.project.timestamp.end | date:'medium'}}</dd>
+        </dl>
+    </li>
+    <li>
+        <span>Notities</span>
+        <dl>
+            <dt>Gegevens</dt>
+            <dd ng-repeat="note in $ctrl.project.notes | orderBy: 'date'">
+                <a href="#!/projects/{{$ctrl.project.id}}/notes/{{note.id}}">{{note.date | date:'medium'}}</a></dd>
+        </dl>
+    </li>
+    <li>
+        <span>Activa</span>
+        <dl>
+            <dt>Geraamde kosten</dt>
+            <dd>&#8364; {{$ctrl.project.balance | taxFilter}}</dd>
+            <dt>Excl. BTW</dt>
+            <dd>&#8364; {{$ctrl.project.balance | projectFilter}}</dd>
+        </dl>
+    </li>
+    <li>
+        <span>Opdrachtgevers</span>
+        <dl>
+            <dt>Gegevens</dt>
+            <dd ng-repeat="client in $ctrl.project.clients | orderBy: 'name'">
+                <a href="#!/clients/{{client.id}}">{{client.name}}</a></dd>
+        </dl>
+    </li>
+</ul>

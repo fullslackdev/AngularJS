@@ -6,5 +6,6 @@ angular.module('nextlegalApp', [
     'ngRoute',
     'core',
     'clientDetailModule',
-    'clientListModule'
+    'clientListModule',
+    'projectDetailModule'
 ]);
