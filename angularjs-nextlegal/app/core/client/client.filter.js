@@ -2,7 +2,7 @@
 
 angular.
     module('core').
-    filter('testFilter', function() {
+    filter('clientFilter', function() {
         return function(clients, filterInput) {
             return arrayIntersection(clients, filterInput);
 
