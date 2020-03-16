@@ -27,8 +27,13 @@
 		  }
         }
       ],
-      balance: '{{floating(10000, 1000000, 2, "$0,0.00")}}',
-      snippet: '{{lorem(2, "sentence")}}'
+      balance: '{{floating(10000, 1000000, 2, "0,0.00")}}',
+      snippet: '{{lorem(2, "sentence")}}',
+	  images: [
+        {
+          'repeat(3, 5)': 'https://via.placeholder.com/400'
+        }
+	  ]
     }
   }
 ]
