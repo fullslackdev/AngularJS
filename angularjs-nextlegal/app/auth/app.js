@@ -59,6 +59,10 @@
                 controller: 'ProfileController',
                 templateUrl: 'auth/profile/profile.html',
                 controllerAs: 'vm'
+            })
+            .state('unauthorized', {
+                url: '/401',
+                templateUrl: 'auth/error/401.html'
             });
 
         angularAuth0Provider.init({
