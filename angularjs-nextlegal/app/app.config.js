@@ -11,8 +11,14 @@ angular.
                 when('/clients/:clientIdParam', {
                     template: '<client-detail-component></client-detail-component>'
                 }).
+                when('/projects', {
+                    template: '<project-list-component></project-list-component>'
+                }).
                 when('/projects/:projectIdParam', {
                     template: '<project-detail-component></project-detail-component>'
+                }).
+                when('/projects/:projectIdParam/note/:projectNoteIdParam', {
+                    template: '<project-note-detail-component></project-note-detail-component>'
                 }).
                 otherwise('/clients');
         }

@@ -1,13 +1,13 @@
 'use strict';
 
 angular.
-    module('clientListModule').
-    component('clientListComponent', {
+    module('projectListModule').
+    component('projectListComponent', {
         controllerAs: 'vm',
-        templateUrl: 'clients/list/client-list.template.html',
-        controller: ['ClientFactory',
-            function ClientListController(Client) {
-                this.clients = Client.query();
+        templateUrl: 'projects/list/project-list.template.html',
+        controller: ['ProjectFactory',
+            function ProjectListController(Project) {
+                this.projects = Project.query();
                 this.orderProp = 'name';
             }
         ]

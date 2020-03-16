@@ -21,20 +21,16 @@
             <!--Body content-->
 
             <ul class="clients">
-<!--                <li ng-repeat="client in vm.clients | filter:$ctrl.query | testFilter:[1,3,5] | orderBy:vm.orderProp"-->
-                <li ng-repeat="client in vm.clients | filter:$ctrl.query | orderBy:vm.orderProp"
+                <li ng-repeat="project in vm.projects | filter:$ctrl.query | orderBy:vm.orderProp"
                     class="thumbnail client-list-item">
-                    <a href="#!/clients/{{client.id}}" class="thumb">
-                        <img ng-src="{{client.imageUrl}}" alt="{{client.name}}" />
+                    <a href="#!/projects/{{project.id}}" class="thumb">
+                        <img ng-src="{{project.imageUrl}}" alt="{{project.name}}" />
                     </a>
-                    <a href="#!/clients/{{client.id}}">{{client.name}}</a>
-                    <p>{{client.snippet}}</p>
+                    <a href="#!/projects/{{project.id}}">{{project.name}}</a>
+                    <p>{{project.snippet}}</p>
                 </li>
             </ul>
 
         </div>
     </div>
 </div>
-
-<!--Display a JSON list on the bottom of the page-->
-<!--<pre>{{$ctrl.phones | filter:$ctrl.query | orderBy:$ctrl.orderProp | json}}</pre>-->

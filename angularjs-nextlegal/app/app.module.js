@@ -7,5 +7,7 @@ angular.module('nextlegalApp', [
     'core',
     'clientDetailModule',
     'clientListModule',
-    'projectDetailModule'
+    'projectDetailModule',
+    'projectListModule',
+    'projectNoteDetailModule'
 ]);

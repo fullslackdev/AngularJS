@@ -1,4 +1,4 @@
 'use strict';
 
-// Define the `clientList` module
-angular.module('clientListModule', ['core.client']);
+// Define the `projectListModule` module
+angular.module('projectListModule', ['core.project']);
