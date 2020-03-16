@@ -1,0 +1,42 @@
+[
+  {
+    'repeat(10)': {
+      id: '{{index(10)}}',
+	  name: '{{company()}}',
+	  location: {
+		address: '{{street()}} {{integer(10, 900)}}',
+		zipcode: '{{integer(1000, 9999)}}',
+		city: '{{city()}}',
+		country: '{{country()}}'
+	  },
+	  
+		phonenumber: '+{{phone("xxxxxxxxxxx")}}',
+		email(tags) {
+          return `info@${this.name}${tags.domainZone()}`.toLowerCase();
+		},
+		website(tags) {
+          return `https://${this.name}${tags.domainZone()}`.toLowerCase();
+		}
+	  ,
+      description: '{{lorem(1, "paragraphs")}}',
+      lawyers: '{{integer(50, 300)}}',
+      projects: [
+        {
+          'repeat(2, 5)': {
+		    id: '{{integer(1, 20)}}',
+			name(tags) {
+			  return `projectName${this.id}`;
+			}
+		  }
+        }
+      ],
+	  images: [
+        {
+          'repeat(3, 5)': 'https://via.placeholder.com/400'
+        }
+	  ],
+      imageUrl: 'https://via.placeholder.com/100',
+	  snippet: '{{lorem(2, "sentence")}}'
+    }
+  }
+]
