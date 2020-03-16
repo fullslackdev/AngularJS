@@ -5,10 +5,12 @@ angular.
     component('clientListComponent', {
         controllerAs: 'vm',
         templateUrl: 'clients/list/client-list.template.html',
-        controller: ['ClientFactory',
-            function ClientListController(Client) {
-                this.clients = Client.query();
-                this.orderProp = 'name';
+        controller: ['ClientFactory', 'authService',
+            function ClientListController(Client, authService) {
+                var self = this;
+                self.clients = Client.query();
+                self.orderProp = 'name';
+                self.auth = authService;
             }
         ]
     });

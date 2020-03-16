@@ -9,5 +9,6 @@ angular.module('nextlegalApp', [
     'clientListModule',
     'projectDetailModule',
     'projectListModule',
-    'projectNoteDetailModule'
+    'projectNoteDetailModule',
+    'app'
 ]);
