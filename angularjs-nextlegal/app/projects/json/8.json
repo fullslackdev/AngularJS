@@ -52,6 +52,11 @@
         "name": "Van Doorne"
       }
     ],
-    "balance": "\u20AC765,714.43",
-    "snippet": "Minim dolore quis aliquip aute eu. Fugiat sunt laborum officia consectetur incididunt commodo magna ex id."
+    "balance": "765714.43",
+    "snippet": "Minim dolore quis aliquip aute eu. Fugiat sunt laborum officia consectetur incididunt commodo magna ex id.",
+    "images": [
+        "https://via.placeholder.com/400",
+        "https://via.placeholder.com/400/FF0000",
+        "https://via.placeholder.com/400/00FF00"
+    ]
 }

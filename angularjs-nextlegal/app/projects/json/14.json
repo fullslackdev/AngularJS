@@ -68,6 +68,11 @@
         "name": "AKD Benelux Lawyers"
       }
     ],
-    "balance": "\u20AC393,826.95",
-    "snippet": "Sunt eu pariatur incididunt non magna ipsum veniam consectetur. Minim ea cillum est occaecat cillum qui duis esse minim fugiat magna."
+    "balance": "393826,95",
+    "snippet": "Sunt eu pariatur incididunt non magna ipsum veniam consectetur. Minim ea cillum est occaecat cillum qui duis esse minim fugiat magna.",
+    "images": [
+        "https://via.placeholder.com/400",
+        "https://via.placeholder.com/400/FF0000",
+        "https://via.placeholder.com/400/00FF00"
+    ]
 }

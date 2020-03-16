@@ -55,6 +55,11 @@
         "name": "Houthoff"
       }
     ],
-    "balance": "\u20AC628,982.20",
-    "snippet": "Nostrud amet quis ex ut nulla culpa. Nisi reprehenderit cillum do est ullamco ad id excepteur dolore duis labore ea ut."
+    "balance": "628982.20",
+    "snippet": "Nostrud amet quis ex ut nulla culpa. Nisi reprehenderit cillum do est ullamco ad id excepteur dolore duis labore ea ut.",
+    "images": [
+        "https://via.placeholder.com/400",
+        "https://via.placeholder.com/400/FF0000",
+        "https://via.placeholder.com/400/00FF00"
+    ]
 }

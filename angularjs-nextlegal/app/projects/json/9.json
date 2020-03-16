@@ -51,6 +51,11 @@
         "name": "Allen \u0026 Overy"
       }
     ],
-    "balance": "\u20AC903,708.31",
-    "snippet": "Velit ad magna sint sunt eu sit tempor laboris sunt laborum nisi. Non in sunt anim dolore laboris."
+    "balance": "903708.31",
+    "snippet": "Velit ad magna sint sunt eu sit tempor laboris sunt laborum nisi. Non in sunt anim dolore laboris.",
+    "images": [
+        "https://via.placeholder.com/400",
+        "https://via.placeholder.com/400/FF0000",
+        "https://via.placeholder.com/400/00FF00"
+    ]
 }

@@ -33,6 +33,11 @@
         "name": "Clifford Chance"
       }
     ],
-    "balance": "\u20AC988,684.47",
-    "snippet": "Quis quis labore nisi nostrud velit ea consequat irure. Eu irure occaecat sint in sit non."
+    "balance": "988684.47",
+    "snippet": "Quis quis labore nisi nostrud velit ea consequat irure. Eu irure occaecat sint in sit non.",
+    "images": [
+        "https://via.placeholder.com/400",
+        "https://via.placeholder.com/400/FF0000",
+        "https://via.placeholder.com/400/00FF00"
+    ]
 }

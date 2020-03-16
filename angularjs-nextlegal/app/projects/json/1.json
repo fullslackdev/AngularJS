@@ -41,6 +41,11 @@
         "name": "AKD Benelux Lawyers"
       }
     ],
-    "balance": "\u20AC82,432.87",
-    "snippet": "Commodo est exercitation quis irure laborum officia reprehenderit mollit adipisicing eiusmod magna. Ipsum voluptate consequat velit ex pariatur."
+    "balance": "82432.87",
+    "snippet": "Commodo est exercitation quis irure laborum officia reprehenderit mollit adipisicing eiusmod magna. Ipsum voluptate consequat velit ex pariatur.",
+    "images": [
+        "https://via.placeholder.com/400",
+        "https://via.placeholder.com/400/FF0000",
+        "https://via.placeholder.com/400/00FF00"
+    ]
 }

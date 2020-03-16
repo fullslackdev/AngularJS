@@ -58,6 +58,11 @@
         "name": "Houthoff"
       }
     ],
-    "balance": "\u20AC722,521.32",
-    "snippet": "Irure occaecat consectetur reprehenderit enim sunt nulla duis magna enim consectetur sint veniam elit. Cupidatat duis incididunt eu culpa sunt anim Lorem dolore."
+    "balance": "722521.32",
+    "snippet": "Irure occaecat consectetur reprehenderit enim sunt nulla duis magna enim consectetur sint veniam elit. Cupidatat duis incididunt eu culpa sunt anim Lorem dolore.",
+    "images": [
+        "https://via.placeholder.com/400",
+        "https://via.placeholder.com/400/FF0000",
+        "https://via.placeholder.com/400/00FF00"
+    ]
 }

@@ -67,6 +67,11 @@
         "name": "AKD Benelux Lawyers"
       }
     ],
-    "balance": "\u20AC496,368.68",
-    "snippet": "Exercitation eiusmod ipsum mollit nisi magna consectetur. Ipsum fugiat qui Lorem et reprehenderit dolore aute eu sunt enim duis."
+    "balance": "496368.68",
+    "snippet": "Exercitation eiusmod ipsum mollit nisi magna consectetur. Ipsum fugiat qui Lorem et reprehenderit dolore aute eu sunt enim duis.",
+    "images": [
+        "https://via.placeholder.com/400",
+        "https://via.placeholder.com/400/FF0000",
+        "https://via.placeholder.com/400/00FF00"
+    ]
 }

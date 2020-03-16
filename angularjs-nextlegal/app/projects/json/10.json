@@ -61,6 +61,11 @@
         "name": "Houthoff"
       }
     ],
-    "balance": "\u20AC383,082.42",
-    "snippet": "Consequat commodo adipisicing qui consequat esse culpa irure exercitation dolore laborum. Laboris veniam eu proident ea id."
+    "balance": "383082.42",
+    "snippet": "Consequat commodo adipisicing qui consequat esse culpa irure exercitation dolore laborum. Laboris veniam eu proident ea id.",
+    "images": [
+        "https://via.placeholder.com/400",
+        "https://via.placeholder.com/400/FF0000",
+        "https://via.placeholder.com/400/00FF00"
+    ]
 }

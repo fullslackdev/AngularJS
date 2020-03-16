@@ -47,6 +47,11 @@
         "name": "De Brauw Blackstone Westbroek"
       }
     ],
-    "balance": "\u20AC627,998.40",
-    "snippet": "Nisi incididunt eu dolore velit fugiat. Ullamco voluptate sint cillum est excepteur cillum esse id sint nostrud pariatur non."
+    "balance": "627998.40",
+    "snippet": "Nisi incididunt eu dolore velit fugiat. Ullamco voluptate sint cillum est excepteur cillum esse id sint nostrud pariatur non.",
+    "images": [
+        "https://via.placeholder.com/400",
+        "https://via.placeholder.com/400/FF0000",
+        "https://via.placeholder.com/400/00FF00"
+    ]
 }

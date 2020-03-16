@@ -57,6 +57,11 @@
         "name": "Stibbe"
       }
     ],
-    "balance": "\u20AC537,945.86",
-    "snippet": "Aute et elit elit aliqua laborum magna occaecat ex. Labore consequat eiusmod anim dolor."
+    "balance": "537945.86",
+    "snippet": "Aute et elit elit aliqua laborum magna occaecat ex. Labore consequat eiusmod anim dolor.",
+    "images": [
+        "https://via.placeholder.com/400",
+        "https://via.placeholder.com/400/FF0000",
+        "https://via.placeholder.com/400/00FF00"
+    ]
 }

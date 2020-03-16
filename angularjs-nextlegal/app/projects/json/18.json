@@ -43,6 +43,11 @@
         "name": "Pels Rijcken"
       }
     ],
-    "balance": "\u20AC17,374.30",
-    "snippet": "Incididunt occaecat aliqua anim nulla ipsum. Eiusmod ad quis laborum laboris dolor."
+    "balance": "17374.30",
+    "snippet": "Incididunt occaecat aliqua anim nulla ipsum. Eiusmod ad quis laborum laboris dolor.",
+    "images": [
+        "https://via.placeholder.com/400",
+        "https://via.placeholder.com/400/FF0000",
+        "https://via.placeholder.com/400/00FF00"
+    ]
 }

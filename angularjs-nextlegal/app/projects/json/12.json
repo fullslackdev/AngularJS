@@ -52,6 +52,11 @@
         "name": "Clifford Chance"
       }
     ],
-    "balance": "\u20AC713,158.20",
-    "snippet": "Excepteur sint duis sunt elit nulla. Exercitation velit exercitation incididunt voluptate excepteur ullamco sunt et nostrud nostrud."
+    "balance": "713158.20",
+    "snippet": "Excepteur sint duis sunt elit nulla. Exercitation velit exercitation incididunt voluptate excepteur ullamco sunt et nostrud nostrud.",
+    "images": [
+        "https://via.placeholder.com/400",
+        "https://via.placeholder.com/400/FF0000",
+        "https://via.placeholder.com/400/00FF00"
+    ]
 }

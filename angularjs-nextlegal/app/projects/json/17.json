@@ -33,6 +33,11 @@
         "name": "Loyens \u0026 Loeff"
       }
     ],
-    "balance": "\u20AC792,036.76",
-    "snippet": "Anim aute Lorem qui amet reprehenderit. Ullamco nisi nulla ad irure qui officia qui."
+    "balance": "792036.76",
+    "snippet": "Anim aute Lorem qui amet reprehenderit. Ullamco nisi nulla ad irure qui officia qui.",
+    "images": [
+        "https://via.placeholder.com/400",
+        "https://via.placeholder.com/400/FF0000",
+        "https://via.placeholder.com/400/00FF00"
+    ]
 }

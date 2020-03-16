@@ -58,6 +58,11 @@
         "name": "Clifford Chance"
       }
     ],
-    "balance": "\u20AC903,907.55",
-    "snippet": "Eiusmod in dolor reprehenderit laboris amet ea officia eu. In commodo consequat officia laboris eiusmod anim ad consectetur anim est et cupidatat."
+    "balance": "903907.55",
+    "snippet": "Eiusmod in dolor reprehenderit laboris amet ea officia eu. In commodo consequat officia laboris eiusmod anim ad consectetur anim est et cupidatat.",
+    "images": [
+        "https://via.placeholder.com/400",
+        "https://via.placeholder.com/400/FF0000",
+        "https://via.placeholder.com/400/00FF00"
+    ]
 }

@@ -37,6 +37,11 @@
         "name": "Allen \u0026 Overy"
       }
     ],
-    "balance": "\u20AC565,085.22",
-    "snippet": "Mollit duis id aute nulla amet exercitation ea aliqua ad Lorem irure irure deserunt ipsum. Ea laboris nulla magna id ea sit nulla et minim eu consectetur fugiat velit."
+    "balance": "565085.22",
+    "snippet": "Mollit duis id aute nulla amet exercitation ea aliqua ad Lorem irure irure deserunt ipsum. Ea laboris nulla magna id ea sit nulla et minim eu consectetur fugiat velit.",
+    "images": [
+        "https://via.placeholder.com/400",
+        "https://via.placeholder.com/400/FF0000",
+        "https://via.placeholder.com/400/00FF00"
+    ]
 }

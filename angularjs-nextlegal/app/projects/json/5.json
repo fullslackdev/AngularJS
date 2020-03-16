@@ -71,6 +71,11 @@
         "name": "Van Doorne"
       }
     ],
-    "balance": "\u20AC427,776.44",
-    "snippet": "Velit ullamco et proident eu consequat aliquip adipisicing non Lorem. Do mollit tempor consectetur Lorem deserunt."
+    "balance": "427776.44",
+    "snippet": "Velit ullamco et proident eu consequat aliquip adipisicing non Lorem. Do mollit tempor consectetur Lorem deserunt.",
+    "images": [
+        "https://via.placeholder.com/400",
+        "https://via.placeholder.com/400/FF0000",
+        "https://via.placeholder.com/400/00FF00"
+    ]
 }

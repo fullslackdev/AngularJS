@@ -65,6 +65,11 @@
         "name": "Allen \u0026 Overy"
       }
     ],
-    "balance": "\u20AC851,179.59",
-    "snippet": "Occaecat non ut ullamco nisi irure proident excepteur et aliquip est excepteur. Cupidatat esse consequat cillum deserunt velit occaecat eu nulla aute in do aliquip."
+    "balance": "851179.59",
+    "snippet": "Occaecat non ut ullamco nisi irure proident excepteur et aliquip est excepteur. Cupidatat esse consequat cillum deserunt velit occaecat eu nulla aute in do aliquip.",
+    "images": [
+        "https://via.placeholder.com/400",
+        "https://via.placeholder.com/400/FF0000",
+        "https://via.placeholder.com/400/00FF00"
+    ]
 }

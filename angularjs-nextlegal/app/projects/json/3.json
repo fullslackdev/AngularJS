@@ -38,6 +38,11 @@
         "name": "Van Doorne"
       }
     ],
-    "balance": "\u20AC15,231.65",
-    "snippet": "Fugiat esse minim amet amet proident non cupidatat ullamco dolor nisi eiusmod. Laboris reprehenderit deserunt sunt culpa."
+    "balance": "15231.65",
+    "snippet": "Fugiat esse minim amet amet proident non cupidatat ullamco dolor nisi eiusmod. Laboris reprehenderit deserunt sunt culpa.",
+    "images": [
+        "https://via.placeholder.com/400",
+        "https://via.placeholder.com/400/FF0000",
+        "https://via.placeholder.com/400/00FF00"
+    ]
 }
