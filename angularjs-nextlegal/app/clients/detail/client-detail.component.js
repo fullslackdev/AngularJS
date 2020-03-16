@@ -10,9 +10,11 @@ angular.
             function ClientDetailController($stateParams, Client, authService) {
                 var self = this;
 
-                self.client = Client.get({clientId: $stateParams.clientIdParam}, function(client) {
-                    self.setImage(client.images[0]);
-                });
+                if (authService.isAuthenticated()) {
+                    self.client = Client.get({clientId: $stateParams.clientIdParam}, function (client) {
+                        self.setImage(client.images[0]);
+                    });
+                }
 
                 self.setImage = function setImage(imageUrl) {
                     self.mainImageUrl = imageUrl;

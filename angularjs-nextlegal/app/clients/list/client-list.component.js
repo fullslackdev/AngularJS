@@ -8,7 +8,9 @@ angular.
         controller: ['ClientFactory', 'authService',
             function ClientListController(Client, authService) {
                 var self = this;
-                self.clients = Client.query();
+                if (authService.isAuthenticated()) {
+                    self.clients = Client.query();
+                }
                 self.orderProp = 'name';
                 self.auth = authService;
             }

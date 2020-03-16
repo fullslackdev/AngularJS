@@ -10,10 +10,12 @@ angular.
             function ProjectNoteDetailController($stateParams, Project, authService) {
                 var self = this;
 
-                Project.get({projectId: $stateParams.projectIdParam}).$promise.then(function(data) {
-                    self.project = data;
-                    self.note = data.notes[$stateParams.projectNoteIdParam];
-                });
+                if (authService.isAuthenticated()) {
+                    Project.get({projectId: $stateParams.projectIdParam}).$promise.then(function (data) {
+                        self.project = data;
+                        self.note = data.notes[$stateParams.projectNoteIdParam];
+                    });
+                }
 
                 self.auth = authService;
             }

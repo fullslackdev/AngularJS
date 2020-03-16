@@ -8,7 +8,9 @@ angular.
         controller: ['ProjectFactory', 'authService',
             function ProjectListController(Project, authService) {
                 var self = this;
-                self.projects = Project.query();
+                if (authService.isAuthenticated()) {
+                    self.projects = Project.query();
+                }
                 self.orderProp = 'name';
                 self.auth = authService;
             }
