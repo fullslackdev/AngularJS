@@ -11,8 +11,10 @@
             <p>
                 Sort by:
                 <select ng-model="vm.orderProp">
-                    <option value="name">Alphabetical</option>
-                    <option value="age">Newest</option>
+                    <option value="name">Alphabetical A-Z</option>
+                    <option value="-name">Alphabetical Z-A</option>
+                    <option value="id">ID</option>
+                    <option value="-lawyers">Aantal advocaten</option>
                 </select>
             </p>
         </div>
@@ -20,6 +22,7 @@
             <!--Body content-->
 
             <ul class="clients">
+<!--                <li ng-repeat="client in vm.clients | filter:$ctrl.query | testFilter:[1,3,5] | orderBy:vm.orderProp"-->
                 <li ng-repeat="client in vm.clients | filter:$ctrl.query | orderBy:vm.orderProp"
                     class="thumbnail client-list-item">
                     <a href="#!/clients/{{client.id}}" class="thumb">
