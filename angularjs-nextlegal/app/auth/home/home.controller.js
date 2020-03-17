@@ -3,8 +3,8 @@
         .module('app')
         .controller('HomeController', homeController);
 
-    homeController.$inject = ['$http', 'authService'];
-    function homeController($http, authService) {
+    homeController.$inject = ['$http', '$state', 'authService'];
+    function homeController($http, $state, authService) {
         var vm = this;
 
         vm.auth = authService;
@@ -20,5 +20,9 @@
                 }
             );
         };
+
+        if (authService.isAuthenticated()) {
+            vm.profile = JSON.parse(localStorage.getItem('profile'));
+        }
     }
 })();

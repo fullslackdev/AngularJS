@@ -1,7 +1,23 @@
-<h4>Hello World!</h4>
+<div class="container-fluid" ng-if="vm.auth.isAuthenticated()">
+    <div class="row py-5">
+        <div class="col-12 text-center">
+            <h4>Welcome back {{vm.profile.name}}</h4>
+            <p>You are now in the secured section of this application.</p>
+            <p class="py-3">The `clients` option in the menu will display a list of clients.<br>
+                From there you can open up a client detail page.</p>
+            <p>The `projects` option in the menu will display a list of projects.<br>
+                Inside the projects detail page you can open up a note associated with the project.</p>
+            <p class="py-3"><i class="fab fa-4x fa-github"></i><br>
+                Source code for this application is available at <a href="https://github.com/fullslackdev/AngularJS/tree/master/angularjs-nextlegal" target="_blank">GitHub</a>.</p>
+        </div>
+    </div>
+</div>
+<div class="container-fluid" ng-if="!vm.auth.isAuthenticated()">
+    <div class="row py-5">
+        <div class="col-12 text-center">
+            <h4>Welcome to the NextLegal Demo Application</h4>
+            <p>To use this application you first need to log in. After that you can navigate using the top menu bar.</p>
+        </div>
+    </div>
+</div>
 
-<button ng-if="vm.auth.isAuthenticated()" ng-click="vm.getMessage()" class="btn btn-primary">
-    Get a Message
-</button>
-
-<p ng-if="vm.message">{{vm.message}}</p>

@@ -14,7 +14,7 @@
                 if (authResult && authResult.accessToken && authResult.idToken) {
                     setSession(authResult);
                     $timeout(function() {
-                        $state.go('home');
+                        $state.go('callback');
                     });
                 }
             });
@@ -55,6 +55,6 @@
             handleAuthentication: handleAuthentication,
             logout: logout,
             isAuthenticated: isAuthenticated
-        }
+        };
     }
 })();

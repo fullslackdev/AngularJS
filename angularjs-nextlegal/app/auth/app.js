@@ -69,7 +69,7 @@
             clientID: 'KxSQPbYe2zVmRrAsp5k61uD0W7WcM5H3',
             domain: 'fullslack.eu.auth0.com',
             responseType: 'token id_token',
-            redirectUri: 'http://localhost:8001/#!callback',
+            redirectUri: 'http://localhost:8001/#callback',
             scope: 'openid profile',
             audience: 'https://fullslack.dev/api'
         });

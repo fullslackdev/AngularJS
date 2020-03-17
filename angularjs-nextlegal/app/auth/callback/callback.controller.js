@@ -3,5 +3,8 @@
         .module('app')
         .controller('CallbackController', callbackController);
 
-    function callbackController() {}
+    callbackController.$inject = ['$state'];
+    function callbackController($state) {
+        $state.go('home');
+    }
 })();
