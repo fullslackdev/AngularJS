@@ -7,3 +7,4 @@ tmp
 .idea
 angular-phonecat-snapshots
 *.ps1
+.htaccess
