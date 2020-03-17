@@ -4,7 +4,7 @@
             <!--Sidebar content-->
 
             <p>
-                Search:
+                Search by name:
                 <input ng-model="$ctrl.query" />
             </p>
 
@@ -22,7 +22,7 @@
 
             <ul class="clients">
 <!--                <li ng-repeat="client in vm.clients | filter:$ctrl.query | clientFilter:[1,3,5] | orderBy:vm.orderProp"-->
-                <li ng-repeat="client in vm.clients | filter:$ctrl.query | orderBy:vm.orderProp"
+                <li ng-repeat="client in vm.clients | filter:{name:$ctrl.query} | orderBy:vm.orderProp"
                     class="thumbnail client-list-item">
                     <a href="#/clients/{{client.id}}" class="thumb">
                         <img ng-src="{{client.imageUrl}}" alt="{{client.name}}" />
